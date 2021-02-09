@@ -54,7 +54,7 @@ export default function FirstGrid() {
         <Grid item xs={12}>
           <Paper className={classes.paper}>
             <div className="row">
-              <img src='https://pbs.twimg.com/profile_images/1303645505465974785/BAedfmOT.jpg' style={{height: '135px'}} />
+              <img src='https://pbs.twimg.com/profile_images/1303645505465974785/BAedfmOT.jpg' style={{height: '135px'}} alt="" />
             </div>
             <div className="row" style={{marginLeft: '20px'}}>
               <h4 style={{marginTop: '-10px', marginBottom: '-10px'}}>Hackativ8 Meetup</h4>

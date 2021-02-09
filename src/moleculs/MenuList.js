@@ -1,16 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
 import FirstGrid from '../moleculs/FirstGrid';
-import {BrowserRouter, Route, Link, Switch} from 'react-router-dom';
-
-import Explore from '../Home/Explore/index';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -45,7 +39,6 @@ export default function MenuList() {
     setValue(newValue);
   };
 
-  // render() {
     return (
       <div className={classes.root}>
         
@@ -65,7 +58,6 @@ export default function MenuList() {
         <FirstGrid />
       </div>
     )
-  // }
 }
 
 // export default MenuList;
